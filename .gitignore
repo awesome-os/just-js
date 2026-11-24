@@ -1,0 +1,17 @@
+*.tz
+*.gz
+*.7z
+just
+builtins.h
+.ccache
+scratch
+.vscode
+out
+deps
+*.o
+*.a
+modules
+examples
+.just
+lib/*/*
+*.debug
