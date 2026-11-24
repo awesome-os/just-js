@@ -10,10 +10,16 @@ FLAGS=${CFLAGS}
 LFLAG=${LFLAGS}
 JUST_HOME=$(shell pwd)
 
-.PHONY: help clean
+.PHONY: help clean ghost-hydrate quickstart
 
 help:
 	@awk 'BEGIN {FS = ":.*?## "} /^[a-zA-Z0-9_\.-]+:.*?## / {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}' $(MAKEFILE_LIST)
+
+ghost-hydrate: ## hydrate dynamic V8 + native components from awesome-os/b8g-ghost @ cas-v1
+	node ghost-hydrate.mts
+
+quickstart: ## run Ghost CAS quickstart verification (149+ cas-v1 entries & 4-OS B8G_ARENA_V1)
+	node examples/ghost-cas-quickstart.mts
 
 modules: ## download the modules for this release
 	rm -fr modules
@@ -137,7 +143,7 @@ cleanall: ## remove just and build deps
 	rm -f *.gz
 	rm -fr modules
 	rm -fr libs
-	rm -fr examples
+	rm -fr dist
 	$(MAKE) clean
 
 install: ## install

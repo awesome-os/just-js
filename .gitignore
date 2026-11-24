@@ -11,7 +11,7 @@ deps
 *.o
 *.a
 modules
-examples
+dist/
 .just
 lib/*/*
 *.debug

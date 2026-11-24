@@ -15,3 +15,5 @@ jobs:
           node-version: '22'
       - name: Hydrate Dynamic V8 + Native Components from Canonical O(1) Ghost CAS (cas-v1)
         run: node ghost-hydrate.mts
+      - name: Verify Ghost CAS Quickstart (149+ cas-v1 entries & 4-OS B8G_ARENA_V1 ABI)
+        run: node examples/ghost-cas-quickstart.mts
