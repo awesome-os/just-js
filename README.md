@@ -4,6 +4,26 @@
 
 `awesome-os/just-js` is the modernized, debloated fork of [just-js/just](https://github.com/just-js/just). Instead of vendoring legacy 250 MB `libv8_monolith.a` archives or rebuilding `just-js/libs` from source, all native V8, ABI, and component dependencies hydrate on demand from the canonical **`awesome-os/b8g-ghost @ cas-v1`** content-addressed store (CAS).
 
+## Quick Install & Usage
+
+### Install via `pnpm` (or release tarball)
+
+```powershell
+pnpm add github:awesome-os/just-js
+```
+
+Or download the latest SHA-256 verified archive from [`Releases`](https://github.com/awesome-os/just-js/releases/latest).
+
+### Usage & Verification
+
+```powershell
+# Run the live Ghost CAS quickstart (Node.js 22+)
+node examples/ghost-cas-quickstart.mts
+
+# Hydrate dynamic shared V8 + native C shards into Machine CAS
+node ghost-hydrate.mts
+```
+
 ## Live Ghost CAS (`awesome-os/b8g-ghost @ cas-v1`)
 
 | Capability | Live State |
