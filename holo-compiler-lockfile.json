@@ -1,0 +1,63 @@
+{
+  "schema": "holo-compiler-lockfile-v1",
+  "abiMagic": "0x33564742",
+  "casLayout": "v11",
+  "repo": "awesome-os/just-js",
+  "targets": [
+    "linux-arm64",
+    "linux-x64",
+    "macos-arm64",
+    "win64"
+  ],
+  "generatedAt": "2026-11-24T23:53:02.473Z",
+  "dependencies": [
+    {
+      "id": "awesome-os/just-js/just-linux-arm64",
+      "kind": "ghost-launcher",
+      "version": "v0.1.0",
+      "target": "linux-arm64",
+      "sha512": "3d22556d1b8c1525083fee59deaf8c9fce9bfb1c1b74b660ef71383c99fb81c236140449b749c9461ce04dfeb7364eb82ac9bace7683c2083091e469eb5e725e",
+      "size": 34168,
+      "executable": true,
+      "blob": "v11/files/3d/3d22556d1b8c1525083fee59deaf8c9fce9bfb1c1b74b660ef71383c99fb81c236140449b749c9461ce04dfeb7364eb82ac9bace7683c2083091e469eb5e725e-exec",
+      "url": "https://github.com/awesome-os/just-js/releases/download/v0.1.0/just-linux-arm64",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/just-js/just-linux-x64",
+      "kind": "ghost-launcher",
+      "version": "v0.1.0",
+      "target": "linux-x64",
+      "sha512": "e8d1904228e82c58676dc40a18ed3999ff8de330559336955f625d51fdf880ddf0f67af6a352075366d2dc91f4e9e7700abf7dbf0a5011d79b8165e6bd7810b6",
+      "size": 27880,
+      "executable": true,
+      "blob": "v11/files/e8/e8d1904228e82c58676dc40a18ed3999ff8de330559336955f625d51fdf880ddf0f67af6a352075366d2dc91f4e9e7700abf7dbf0a5011d79b8165e6bd7810b6-exec",
+      "url": "https://github.com/awesome-os/just-js/releases/download/v0.1.0/just-linux-x64",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/just-js/just-macos-arm64",
+      "kind": "ghost-launcher",
+      "version": "v0.1.0",
+      "target": "macos-arm64",
+      "sha512": "b4dbb7d4125b814325d0bd5648a43fc0ca26f33d220bdac7d427735ce995ff2bff1bff6a7e859d741df5feeb6fa157ede42014c2d85980169be8dac3b39e8d39",
+      "size": 50448,
+      "executable": true,
+      "blob": "v11/files/b4/b4dbb7d4125b814325d0bd5648a43fc0ca26f33d220bdac7d427735ce995ff2bff1bff6a7e859d741df5feeb6fa157ede42014c2d85980169be8dac3b39e8d39-exec",
+      "url": "https://github.com/awesome-os/just-js/releases/download/v0.1.0/just-macos-arm64",
+      "dependencies": []
+    },
+    {
+      "id": "awesome-os/just-js/just.exe",
+      "kind": "ghost-launcher",
+      "version": "v0.1.0",
+      "target": "win64",
+      "sha512": "9b38cb5193170fe88be6e188d0a8efb87530f8e12e0f4799cb9f704156bc0aeb88aaf80e27d334790ebc4133ab51e389887f865f5486e936479aeffcf97dd3d8",
+      "size": 19968,
+      "executable": true,
+      "blob": "v11/files/9b/9b38cb5193170fe88be6e188d0a8efb87530f8e12e0f4799cb9f704156bc0aeb88aaf80e27d334790ebc4133ab51e389887f865f5486e936479aeffcf97dd3d8-exec",
+      "url": "https://github.com/awesome-os/just-js/releases/download/v0.1.0/just.exe",
+      "dependencies": []
+    }
+  ]
+}
