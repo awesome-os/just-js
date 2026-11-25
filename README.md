@@ -115,3 +115,13 @@ just clean
 - Thin layer over system calls, dynamic V8, and standard C libraries
 - Favour return codes over exceptions; allocate as little as possible on the V8 heap
 - Zero-`node-gyp` native interop via 64-byte-aligned `B8G_ARENA_V1` (`b8g-ghost-abi.node`) and $O(1)$ Ghost CAS hydration
+
+## Quick Install & Run (Windows / Linux / macOS)
+
+```sh
+# Install / hydrate from v11 CAS via holo-pm
+holo-pm install repository://github.com/awesome-os/just-js@main
+
+# Or project & run directly via holo-project (0-byte hardlink)
+holo-project "project://cpp/just-js?from=repository://github.com/awesome-os/just-js@main"
+```
