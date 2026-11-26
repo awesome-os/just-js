@@ -1,3 +1,6 @@
+> [!NOTE]
+> Consolidated into https://github.com/awesome-os/chromium-baseline/tree/main/components/just-js
+
 # awesome-os/just-js
 
 > **Debloated Just.js Runtime wired to Canonical $O(1)$ Ghost CAS (`awesome-os/b8g-ghost @ cas-v1`)**
